@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/colourful_bg"
+    tools:context=".user.UserInfo">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+    <com.mikhaellopez.circularimageview.CircularImageView
+        android:id="@+id/user_avatar"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:src="@mipmap/ic_launcher"
+        android:scaleType="centerCrop"/>
+
+    <EditText
+        android:id="@+id/user_display_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/user_avatar"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/user_info_bg"
+        android:drawableLeft="@drawable/ic_person_white"
+        android:drawablePadding="10dp"
+        android:hint="@string/name"
+        android:inputType="text"
+        android:padding="14dp"
+        android:textColor="#fff"
+        android:drawableStart="@drawable/ic_person_white" />
+
+    <EditText
+        android:id="@+id/user_about_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/user_display_name"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/user_info_bg"
+        android:drawableLeft="@drawable/ic_book_white"
+        android:drawablePadding="10dp"
+        android:hint="@string/about"
+        android:inputType="textCapSentences"
+        android:padding="14dp"
+        android:textColor="#fff"
+        android:drawableStart="@drawable/ic_book_white" />
+
+    <Button
+        android:id="@+id/saveUserInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/user_about_text"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:padding="16dp"
+        android:text="@string/save"
+        android:background="@drawable/user_info_btn_bg"
+        android:textColor="#ffffff"
+        android:layout_marginBottom="10dp"
+        android:textStyle="bold"/>
+
+    </RelativeLayout>
+
+
+</ScrollView>

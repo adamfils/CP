@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "691904028008",
+    "firebase_url": "https://chatpanther-25a6d.firebaseio.com",
+    "project_id": "chatpanther-25a6d",
+    "storage_bucket": "chatpanther-25a6d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:691904028008:android:165ecfca2e54120b",
+        "android_client_info": {
+          "package_name": "com.adamapps.chatpanther"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "691904028008-ssktt9m73i1vukb28mkkalihaeljvri4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.adamapps.chatpanther",
+            "certificate_hash": "8ff8293155c42a5ea4ce0f920974f4c2cbb50e32"
+          }
+        },
+        {
+          "client_id": "691904028008-ufmqcvniok0hr087nc01aam90j4fckmm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBz8b_hkTHUdvGXrQItluBPXsUf2O3rhHM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "691904028008-ufmqcvniok0hr087nc01aam90j4fckmm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
